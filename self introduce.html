@@ -4,6 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기소개서</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        h1{
+            color: brown;
+            text-align: center;
+        }
+        p{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-indent: 1em;
+            font-size: 1em;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        .box{
+            border: 1px dotted;
+        }
+        h2{
+            text-shadow: 3px 3px 5px skyblue;
+        }
+        #round{
+            background-color: orange;
+            border-radius: 30px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -11,15 +40,17 @@
     <h1><strong>About me</strong></h1>
     <hr>
     <h3>
+        <P>
         안녕하세요 저는 이번에 새로 입학한 이종훈이라고 합니다!! <br>
         저의 평소 관심사는 컴퓨터 코딩을 사용해 하는 많은 활동에 관심이 많습니다 <br>
         저의 취미는 아침이나 저녁에 산책하기, 게임하기, 운동하기입니다.
+        </P>
     </h3>
     <audio src="media/자기소개.mp3" controls loop></audio>
     </header>
     <nav>
         <h2>목차</h2>
-        <ul>
+        <ul class="box">
             <li><a href="#intresting">관심사</a></li>
             <li><a href="#habby">취미</a></li>
             <li><a href="#time">시간표</a></li>
@@ -112,11 +143,9 @@
     </tbody>
 </table>
 </article>
-<article>
-    <br><br><a href="survey.html">설문조사</a>
-</article>
 </section>
-<footer>
+<footer id="round">
+    <br><br><a href="survey.html">설문조사</a>
     <p>2025년 03월 20일 작성, 이종훈</p>
 </footer>
 </body>
