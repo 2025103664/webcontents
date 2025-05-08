@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개서</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            text-align: left;
+            padding: 5px;
+            height: 15px;
+            width: 100px;
+        }
+        thead,tfoot{
+            background: gray;
+            color: yellow;
+        }
+        tbody tr:nth-child(even){
+            background-color: aliceblue;
+        }
+        tbody tr:hover{
+            background-color: pink;
+        }
+        body{
+            background-color: aliceblue;
+        }
+        h1{
+            color: brown;
+            text-align: center;
+        }
+        p{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-indent: 1em;
+            font-size: 1em;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        .box{
+            border: 1px dotted;
+        }
+        h2{
+            text-shadow: 3px 3px 5px skyblue;
+        }
+        #round{
+            background-color: orange;
+            border-radius: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <title>자기 소개</title>
+    <h1><strong>About me</strong></h1>
+    <hr>
+    <h3>
+        <P>
+        안녕하세요 저는 이번에 새로 입학한 이종훈이라고 합니다!! <br>
+        저의 평소 관심사는 컴퓨터 코딩을 사용해 하는 많은 활동에 관심이 많습니다 <br>
+        저의 취미는 아침이나 저녁에 산책하기, 게임하기, 운동하기입니다.
+        </P>
+    </h3>
+    <audio src="media/자기소개.mp3" controls loop></audio>
+    </header>
+    <nav>
+        <h2>목차</h2>
+        <ul class="box">
+            <li><a href="#intresting">관심사</a></li>
+            <li><a href="#habby">취미</a></li>
+            <li><a href="#time">시간표</a></li>
+        </ul>
+    </nav>
+    <section>
+    <article>
+    <h1 id="intresting"><strong>저의 관심사에 대하여 소개해드겠습니다!</strong></h1>
+    <hr>
+    <ul>
+        <li><h2><i>인공지능</i></h2></li>
+        <ul>
+            <li>학습능력<br> AI는 데이터를 분석하고 학습하는 능력을 가지고 있습니다.</li>
+            <li>기억 및 문제 해결<br>결정을 내리는 데 필요한 정보를 정리할 수 있습니다.</li>
+            <li>기능 및 기능<br>AI는 반복적인 작업을 할 수 있고, 환경에 적응할 수 있습니다.</li>
+        </ul>
+        <li><h2><i>프로그래밍 언어</i></h2></li>
+        <ul>
+             <li>파이썬<br>간단하고 쉽게 이해가능합니다.</li>
+             <li>자바<br>객체 지향적 설계를 통해서 프로그램을 보다 유연하고 변경이 용이하게 만들 수 있습니다.</li>
+             <li>c언어<br>간결하고, 직관적인 문법을 가지고 있습니다.</li>
+        </ul>
+        <li><h2><i>사물인터넷</i></h2></li>
+        <ol type="1">
+            <li>스마트 팜</li>
+            <li>스마트 홈</li>
+            <li>스마트 헬스케어 시스템</li>
+            <li>스마트 팩토리</li>
+        </ol>
+    </ul>
+    </article>
+
+    <br><br>
+
+    <article>
+    <h1 id="habby"><strong>이번에는 저의 취미에 대하여 소개해드겠습니다!</strong></h1>
+    <hr>
+    <table border="1">
+        <caption>나의 취미활동</caption>
+        <tfoot>
+            <tr><th>산책하기</th><th>운동하기</th><th>책읽기</th></tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td><img src="media/work.JPG"></td>
+                <td><img src="media/heath.JPG"></td>
+                <td><img src="media/read.JPG"></td>
+            </tr>
+        </tbody>
+    </table>
+    </article>
+
+    <br><br>
+
+<article>
+<table border="1">
+    <thead id="time">
+        <tr>
+            <th>구분</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>09</td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td>10</td><td></td><td rowspan="3">프로그래밍언어실습1</td><td></td><td rowspan="3">컴퓨터과학개론</td><td></td>
+        </tr>
+        <tr>
+            <td>11</td><td></td><!-- <td>2</td> --> <td></td> <!-- <td>2</td> --> <td></td>
+        </tr>
+        <tr>
+            <td>12</td><td></td><!-- <td>3</td> --> <td></td> <!-- <td>3</td> --> <td></td>
+        </tr>
+        <tr>
+            <td>01</td><td></td><td></td><td rowspan="2">sw개발문제해결능력</td><td></td><td></td>
+        </tr>
+        <tr>
+            <td>02</td><td></td><td rowspan="2"> 컴퓨팅사고력</td><!-- <td>2</td> --> <td rowspan="3">인터넷콘텐츠</td><td></td>
+        </tr>
+        <tr>
+            <td>03</td><td></td><!-- <td>2</td> --> <td></td><!-- <td>2</td> --> <td></td>
+        </tr>
+        <tr>
+            <td>04</td><td></td><td></td><td></td><!-- <td>3</td> --> <td></td>
+        </tr>
+        <tr>
+            <td>05</td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+    </tbody>
+</table>
+</article>
+</section>
+<footer id="round">
+    <br><br><a href="survey.html">설문조사</a>
+    <p>2025년 03월 20일 작성, 이종훈</p>
+</footer>
+</body>
+</html>
